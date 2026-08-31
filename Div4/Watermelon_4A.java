@@ -63,7 +63,7 @@ public class Watermelon_4A {
     private static void solve(FastScanner in, PrintWriter out) {
         // Write your solution here
         int w=in.nextInt();
-        if(w%2==0){
+        if((w>2) && (w%2==0)){
             out.println("YES");
         }else{
             out.println("NO");
